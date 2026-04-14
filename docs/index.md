@@ -20,4 +20,4 @@ DSL-Driven UMG Widget Generation System for Unreal Engine 5.
 
 Generate complete UMG Widget Blueprints from JSON with layout, animations, and SDF visual effects — no manual editor work required.
 
-[**Documentation →**](/llm-plugins/plugins/llm-dynamic-ui/)
+[**Documentation →**](/Yomin-Fab-LLM-Unreal-Pluagin-Skill/plugins/llm-dynamic-ui/)
