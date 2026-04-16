@@ -1,7 +1,7 @@
 # =============================================================================
 # YominUnreal Plugins — Jekyll Configuration
 # =============================================================================
-# Theme: just-the-docs (GitHub Pages 内置支持，无需 Gemfile)
+# Theme: just-the-docs (使用 remote_theme 通过 jekyll-remote-theme 插件加载)
 # 架构：Monorepo 支持，未来新增插件只需在 collections 下加声明、在 _plugins/ 下加子目录即可。
 # =============================================================================
 
@@ -10,8 +10,8 @@ description: "AI-powered Unreal Engine development tools — UI, Material, VFX, 
 url: "https://ituiyuio.github.io"
 baseurl: "/Yomin-Fab-LLM-Unreal-Pluagin-Skill"
 
-# just-the-docs 主题（GitHub Pages 内置支持，直接写 gem 名即可）
-theme: just-the-docs
+# just-the-docs 主题（使用 remote_theme 以兼容 GitHub Pages）
+remote_theme: just-the-docs/just-the-docs@v0.4.3
 
 # just-the-docs 主题配置
 just_the_docs:
@@ -52,5 +52,6 @@ defaults:
 # Jekyll 插件
 # ---------------------------------------------------------------------------
 plugins:
+  - jekyll-remote-theme
   - jekyll-relative-links
   - jekyll-readme-index
