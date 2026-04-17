@@ -10,6 +10,9 @@ description: "AI-powered Unreal Engine development tools — UI, Material, VFX, 
 url: "https://ituiyuio.github.io"
 baseurl: "/Yomin-Fab-LLM-Unreal-Pluagin-Skill"
 
+# Jekyll 源目录
+source: docs
+
 # just-the-docs 主题（使用 remote_theme 以兼容 GitHub Pages）
 remote_theme: just-the-docs/just-the-docs@v0.12.0
 
