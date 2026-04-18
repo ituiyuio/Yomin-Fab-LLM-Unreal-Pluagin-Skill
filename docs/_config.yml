@@ -9,6 +9,7 @@ title: "YominUnreal Plugins"
 description: "AI-powered Unreal Engine development tools — UI, Material, VFX, AI"
 url: "https://ituiyuio.github.io"
 baseurl: "/Yomin-Fab-LLM-Unreal-Pluagin-Skill"
+repository: ituiyuio/Yomin-Fab-LLM-Unreal-Pluagin-Skill
 
 # Jekyll 源目录
 source: docs
