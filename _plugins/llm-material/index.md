@@ -1,9 +1,8 @@
 ---
 layout: default
 title: LLMMaterial
-nav_order: 1
-parent: LLMMaterial
 has_children: true
+nav_order: 2
 ---
 
 # LLMMaterial
