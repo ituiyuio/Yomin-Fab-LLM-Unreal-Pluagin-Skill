@@ -38,6 +38,9 @@ collections:
   llm_dynamic_ui:
     output: true
     permalink: /plugins/llm-dynamic-ui/:path/
+  llm_material:
+    output: true
+    permalink: /plugins/llm-material/:path/
 
 # ---------------------------------------------------------------------------
 # 默认 front matter
@@ -51,6 +54,14 @@ defaults:
       has_children: true
       parent: "LLM Dynamic UI"
       nav_order: 1
+  - scope:
+      path: "_plugins/llm-material"
+      type: llm_material
+    values:
+      layout: page
+      has_children: true
+      parent: "LLM Material"
+      nav_order: 2
 
 # ---------------------------------------------------------------------------
 # Jekyll 插件
