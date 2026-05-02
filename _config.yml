@@ -41,6 +41,9 @@ collections:
   llm_material:
     output: true
     permalink: /plugins/llm-material/:path/
+  llm_statetree:
+    output: true
+    permalink: /plugins/llm-statetree/:path/
 
 # ---------------------------------------------------------------------------
 # 默认 front matter
@@ -62,6 +65,14 @@ defaults:
       has_children: true
       parent: "LLM Material"
       nav_order: 2
+  - scope:
+      path: "_plugins/llm-statetree"
+      type: llm_statetree
+    values:
+      layout: page
+      has_children: true
+      parent: "LLM StateTree"
+      nav_order: 3
 
 # ---------------------------------------------------------------------------
 # Jekyll 插件
